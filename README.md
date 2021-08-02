@@ -54,7 +54,7 @@ https://www.tinkercad.com/things/dKMfIqHHIax-5-servo-motors/editel?sharecode=ytA
 3. Connect potentiometer wiper to the analogs pins in Arduino (A0 to A5) 
 ### **Code of the second circuit:**
 
-#include <Servo.h>
+'#include <Servo.h>
 Servo servo1;
 Servo servo2;
 Servo servo3;
@@ -103,6 +103,6 @@ servo4.write(va4);
 servo5.write(va5);
   
 delay(15);
-}
+}'
 ### **Simulation of the second circuit:**
 https://www.tinkercad.com/things/3dFYfXsTgVC-5-servo-motors-by-using-potentiometer/editel?sharecode=pzgi8eS3g2kpPLlzJoUdPa_18oGTbpavAGWhYQ_3aOM 
